@@ -29,3 +29,5 @@ const isStringPermutate = checkPermutation(firstString, secondString);
 console.log(
   `Are the two strings ${firstString} and ${secondString} can be permutated?: ${isStringPermutate}`
 );
+
+// Total Time Complexity: O(n)

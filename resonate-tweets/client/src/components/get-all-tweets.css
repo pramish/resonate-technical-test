@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00acee;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.tweetCard {
+  height: 300px;
+  width: 400px;
+  margin: 30px;
+  /*   below is a google font */
+  font-family: "Quicksand", sans-serif;
+}
+.tweetCardBody {
+  background-color: #e3e3e6;
+  border-radius: 25px;
+}
+.tweetCardBody .headerContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.tweetCardBody .headerContent .headerImgHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tweetCardBody .headerContent .headerContentText {
+  margin-left: 5px;
+}
+.tweetCardBody .headerContent .headerContentText h3 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 15;
+}
+.tweetCardBody .headerContent .headerContentText p {
+  font-size: 14px;
+  margin: 0;
+  color: #84868a;
+}
+.tweetCard img {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+}
+.tweetTarget {
+  color: #397dfa;
+}
+.tweetDate {
+  font-size: 11px;
+  color: #472c2c;
+  width: 100%;
+}
+.tweetCard .btnWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 10px;
+}
+.tweetCard button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: #273041;
+  color: #f0f4fc;
+  font-family: "Quicksand", sans-serif;
+  transition-duration: 0.3s;
+}
+.tweetCard button:hover {
+  background-color: #d1d8e4;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.tweetCard button:focus {
+  outline: none;
+}

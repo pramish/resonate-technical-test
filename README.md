@@ -4,12 +4,15 @@
 
 1. Clone the application using `git clone https://github.com/pramish/resonate-technical-test.git`
 2. On the root folder, we have two files i.e., `remove_duplicates.js` and `string-permutation.js`. To run these two file, simply run `node file-name`. If you want to pass the custom data into these file, please provide the datas into the respective function.
-3. To start web application, please go inside the `resonate-tweets` folder and run `yarn install` or `npm install` to install all of the dependencies.
-4. Now run `yarn start` or `npm start` from `resonate-tweets` folder.
+3. To start web application, please go inside the `resonate-tweets` folder and run or `npm install` to install all of the dependencies for the server.
+4. Now `npm run dev` from `resonate-tweets` folder to start the server.
+5. Now to run the client folder, from `resonate-tweets` go inside the `client` folder and run `npm install` or `yarn install` to install the client dependencies.
+6. Run `yarn start` or `npm start` to start the client.
+7. If both server and client are up and running, go to localhost:3000 to see recent Tweets.
 
-# For the Web application
+## Tokens Required
 
--> TODO
+1. Please make sure you have the `bearer token` from the [Twitter Developer API](https://developer.twitter.com/en/portal/apps/new). And create a new file called .env on the root folder of `resonate-tweets` and have `BEARER_TOKEN= your bearer token`
 
 Questions and Answers
 

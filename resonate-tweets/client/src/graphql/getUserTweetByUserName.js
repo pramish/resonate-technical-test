@@ -6,6 +6,14 @@ export const getUserTweetByUserName = gql`
       id
       created_at
       text
+      public_metrics
+    }
+  }
+`;
+export const getUserByUserName = gql`
+  query findTwitterUser($userName: String!) {
+    findTwitterUser(userName: $userName) {
+      name
     }
   }
 `;
